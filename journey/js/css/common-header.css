@@ -1,0 +1,12 @@
+.title {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: rgba(166, 68, 68, 0.203);
+  color: black;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

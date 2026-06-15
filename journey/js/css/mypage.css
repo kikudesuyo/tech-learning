@@ -1,0 +1,94 @@
+.setting-button {
+  background-color: rgb(214, 214, 214);
+  color: black;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.history-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.new-addition {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 15rem;
+  height: 4rem;
+  border: 1px solid black;
+  padding: 16px 24px;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.previous-history {
+  background-color: white;
+  color: black;
+  width: 60rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.history-title {
+  font-weight: bold;
+  width: 50%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.history-actions {
+  width: 50%;
+  height: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.history-action-button {
+  background-color: rgb(246, 247, 226);
+  width: 10rem;
+  border: black solid 0.5px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+
+.history-action-button:last-child {
+  background-color: rgb(239, 168, 168);
+  margin-right: 0;
+}
+
+.history-action-button img {
+  width: 3rem;
+  max-width: 20%;
+}
+
+.history-action-button p {
+  margin: 0 auto;
+}

@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: #666;
+  text-decoration: none;
+}
+a:hover{
+  color: #00F;
+}
+
+
+.header{
+  height: 150px;
+  margin-bottom: 20px;
+  background-color: #d9e021;
+  display: flex;
+  align-items: center;
+}
+.header_contents{
+  margin: 0 auto;
+  width: 980px;
+}
+.logo{
+  width: 200px;
+  color: #52b6ac;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* ナビゲーション */
+.navi{
+  margin-left:auto;
+}
+.navi ul{
+  display: flex;
+}
+.navi li{
+  margin-left: 40px;
+}
+
+.contents{
+  margin: 0 auto;
+  width: 980px;
+}
+.visual{
+  height: 400px;
+  background: url("../img/top_bg.jpg") no-repeat center center;
+  display: flex;
+  align-items: center;
+}
+.copy{
+  color: #FFF;
+  margin-left: 100px;
+  font:normal 32px/2em sans-serif;
+}
+.text_wrapper{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  width: 280px;
+  height: 160px;
+  margin-top: 20px;
+  padding-right: 15px;
+  border-right: 8px solid #000;
+  font: normal 18px/2em sans-serif;
+  display: flex;
+  align-items: center;
+
+}
+.menu{
+  width: 300px;
+  font:normal 18px/1.6em sans-serif;
+  display: flex;
+  align-items: center;
+
+
+}
+
+/* 追加コンテンツ */
+.lesson{
+  display: flex;
+}
+.lessson_item{
+  width: 33%;
+  height: 50px;
+  margin-top: 100px;
+  padding: 0 15px;
+  text-align: center;
+}
+.leeson_item img{
+  width: 300px;
+}
+.catchcopy{
+  width: 980px;
+  margin: 8px auto 100px;
+  display: flex;
+}
+.readcopy{
+  color: #9941D8;
+  font: bold 36px/1 sans-serif;
+  text-align: right;
+  flex: 1;
+}
+.bodycopy{
+  padding-left: 20px;
+  font: normal 1em/1.4 serif;
+  flex: 3;
+}
+
+.footer{
+  height: 280px;
+  margin-top: 30px;
+  background-color: #bec9c9;
+
+}
+.footer_contents{
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* リンク集 */
+.footer_contents ul{
+  padding:0;
+  line-height: 2;
+}
+.copyright{
+  text-align: center;
+  margin-top: 30px;
+}

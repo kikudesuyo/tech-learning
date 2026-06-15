@@ -1,0 +1,38 @@
+.main {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-text {
+  color: white;
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+.main-subtitle {
+  color: white;
+  font-style: italic;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.main-description {
+  color: rgba(242, 207, 7, 0.966);
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.main .button {
+  background-color: white;
+  color: black;
+  border: none;
+  width: 20rem;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
